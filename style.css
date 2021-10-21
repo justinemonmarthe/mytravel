@@ -1,0 +1,144 @@
+
+/* Text and background aspect */
+
+body{
+	background-color: #ebd4d4;
+	color: #838383;
+	font-family: 'Kreon', serif;
+	text-align:center;
+	font-weight: lighter;}
+
+h1{color: #d9adad;
+	font-family: 'Anton', sans-serif;   
+	font-weight: 160;
+    letter-spacing: 14px;
+    text-transform: uppercase;}
+
+
+
+/* All the body */
+.container {
+    width: 1000px;
+    margin: 40px auto}
+
+/* Responsive design */
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+	}
+}
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+/* Photo de profile */
+.image-circle {
+	border-radius: 150px}
+
+/* Container part  */
+.card-white {
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 4px; 
+    box-shadow: 0px 10px 30px;
+	margin-bottom: 40px}
+
+/* Button  */
+
+.btn-back {
+	background-color: #557571;
+	padding: 1px 10px;
+	color: white;
+	border-radius: 10px; 
+	font-size: 30px;}
+
+.btn-back:hover {
+	background-color: white;}
+
+.btn-back {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+   left: 160px;
+   top: 60px;}
+
+
+
+/* Logo of social media   */
+.logo {
+	list-style: none;
+	padding-left: 0px;}
+
+.logo li {
+	display: inline;
+	padding: 30px;}
+
+.logo i {
+	font-size: 60px;
+	color: #557571;}
+
+.list-inline i:hover {
+	color: black;}
+
+/* The margin   */
+#introduction p {
+    margin-bottom: 30px;}
+
+
+.Line1 { 
+  margin: 10px;
+  padding: 10px}
+
+.Line2 { 
+  margin: 10px;
+  padding: 10px}
+
+.Line3 { 
+  margin: 10px;
+  padding: 10px}
+
+
+.photoprofile{
+border-radius: 100px;
+}
+
+
+.titre {
+/* Contact and discover our team */
+
+position: absolute;
+width: 677px;
+height: 66px;
+left: 428px;
+top: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+
+color: #000000;
+
+}
+
+
+* {box-sizing: border-box}
+
+
+
+
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+
